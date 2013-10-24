@@ -1,11 +1,11 @@
-﻿<%@ page language="C#" autoeventwireup="true" inherits="_Default, App_Web_kkzg01kx" %>
+﻿<%@ page language="C#" autoeventwireup="true" inherits="_Default, App_Web_1ty4i3z3" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title>(1) Fotos do Perfil</title>
         <link rel="stylesheet" href="structure.css" />
-        <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width:320px) and (max-device-width:480px)" />
         <link rel="shortcut icon" href="images/icone.ico" />
         <meta name="robots" content="noindex" />
     </head>
