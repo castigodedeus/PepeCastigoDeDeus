@@ -15,12 +15,15 @@ div#wrapper
     display:none;
 }
 
-body{width:320px;}
+html{border:10px solid red;}
+body{min-height: 694px;}
+
 
 #wrapperMobile
 {
     position:relative;
     display:block !important;
+    min-height: 694px;
 }
 
 #wrapperMobile #Header
