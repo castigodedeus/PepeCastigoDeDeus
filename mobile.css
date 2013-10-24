@@ -15,11 +15,12 @@ div#wrapper
     display:none;
 }
 
+body{width:320px;}
+
 #wrapperMobile
 {
     position:relative;
     display:block !important;
-    width:320px;
 }
 
 #wrapperMobile #Header
