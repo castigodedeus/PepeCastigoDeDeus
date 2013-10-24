@@ -15,9 +15,6 @@ div#wrapper
     display:none;
 }
 
-html{border:10px solid red;width:320px;}
-
-
 #wrapperMobile
 {
     position:relative;
