@@ -95,7 +95,7 @@ div#wrapper div#footer
     background:url("images/bgfooter.gif") no-repeat;
 }
 
-input[type="text"], input[type="password"]
+div#wrapper input[type="text"], div#wrapper input[type="password"]
 {
     border: 1px solid #1D2A5B;
     margin: 0;
@@ -103,7 +103,7 @@ input[type="text"], input[type="password"]
     padding: 3px 0 4px 3px;
 }
 
-input[type="submit"]
+div#wrapper input[type="submit"]
 {
     width:50px;
     height:25px;
@@ -113,13 +113,13 @@ input[type="submit"]
     background: url("images/btnEntrar.gif") no-repeat;
 }
 
-input[type="checkbox"]
+div#wrapper input[type="checkbox"]
 {
     float:left;
     margin-top:1px;
 }
 
-label
+div#wrapper label
 {
     cursor:pointer;    
     color:#FFF;
@@ -127,15 +127,21 @@ label
     padding:0 0 4px 2px;
 }
 
-label.persist
+div#wrapper label.persist
 {
     float:left;
     color: #98A9CA;
     padding-left: 4px;    
 }
 
-button, input, label, a
+div#wrapper button, div#wrapper input, div#wrapper label, div#wrapper a
 {
     font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
     font-size: 11px;
 }
+
+div#wrapperMobile
+{
+    display:none;    
+}
+ 

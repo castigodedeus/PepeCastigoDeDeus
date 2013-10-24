@@ -1,0 +1,245 @@
+﻿*
+{
+    margin:0px;padding:0px;
+    list-style:none;
+    font-family:Helvetica, sans-serif;
+}
+
+body
+{
+    background:none;
+}
+
+div#wrapper
+{
+    display:none;
+}
+
+#wrapperMobile
+{
+    position:relative;
+    display:block !important;
+}
+
+#wrapperMobile #Header
+{
+    background:-webkit-gradient(linear, center top, center bottom, from(#738aba), to(#2c4987));
+    background:-webkit-linear-gradient(#738aba, #2c4987);
+    border-bottom:1px solid #111a33;
+    -webkit-box-shadow:inset 0 1px 1px -1px #fff;
+    -webkit-box-sizing:border-box;
+    height:43px;
+    position:relative;
+    width:100%;
+    z-index:12;
+    display:-webkit-box;
+    -webkit-box-align:center;
+}
+
+#wrapperMobile #Header .Logo
+{
+    width:99px;
+    height:24px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#wrapperMobile #Header .Logo a
+{
+    width:99px;
+    height:24px;
+    background-position:0 -40px;
+    background-image:url(images/Sprite.png);
+    background-size:auto;
+    background-repeat:no-repeat;
+    display:inline-block;
+    text-indent:-9000px;
+}
+
+#wrapperMobile #Header .Logo a i
+{
+    vertical-align:top;
+}
+
+#wrapperMobile #Sub-Content
+{
+    background-color:#eceff5;
+    border-color:#d8dfea;
+}
+
+#wrapperMobile #Content
+{
+    max-width:480px;
+    margin:0 auto;
+    padding:17px 20px 20px 20px;
+}
+
+#wrapperMobile #Content .Cadastre
+{
+    width:131px;
+    height:11px;
+    text-indent:-9000px;
+    background-image:url(images/btnCadastro.jpg);
+}
+
+#wrapperMobile #Content .Login .txtEmail
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .185);
+    -webkit-background-clip:padding-box;
+    -webkit-border-top-left-radius:8px;
+    -webkit-border-top-right-radius:8px;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-style:solid;
+    border-right-width:1px;
+    margin-top:12px;
+    background-color:#fff;
+}
+
+
+#wrapperMobile #Content .Login .txtPassword
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .185);
+    -webkit-background-clip:padding-box;
+    -webkit-border-bottom-left-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-style:solid;
+    border-top-width:1px;
+    background-color:#fff;
+}
+
+#wrapperMobile #Content .Login .txtEmail input,
+#wrapperMobile #Content .Login .txtPassword input
+{
+    padding:12px 11px 13px;
+    background:transparent;
+    -webkit-box-sizing:border-box;
+    margin:0;
+    width:100%;
+    border:0pc;
+    -webkit-box-flex:1;
+    -webkit-box-shadow:none;
+    display:block;
+    -webkit-border-radius:0;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    font-size:14px;
+    line-height:18px;
+    -webkit-user-select:auto;
+    font-family:Helvetica, sans-serif;
+}
+
+#wrapperMobile #Content .Login .btnEnviar
+{
+    margin-top:15px;
+}
+
+#wrapperMobile #Content .Login .btnEnviar input
+{
+    color:#fff;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, .35);
+    line-height:27px;
+    background:-webkit-linear-gradient(#647aab, #2c467e);
+    border-color:#576499 #3a4b73 #263855;
+    -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .17), 0 1px 0 rgba(0, 11, 42, .12);
+    -webkit-border-radius:6px;
+    display:block;
+    padding:7px 16px;
+    -webkit-box-sizing:border-box;
+    font-weight:bold;
+    min-width:50px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:16px;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width:100%;
+    border:0px;
+}
+
+#wrapperMobile #Content .Login .btnCriar
+{
+    background:url(images/CriarFake.jpg) 0 25px no-repeat;
+    padding:48px 0 12px 0;
+}
+
+#wrapperMobile #Content .Login .btnCriar input
+{
+    display:block;
+    color:#fff;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, .35);
+    line-height:27px;
+    -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .22), 0 1px 0 rgba(0, 0, 0, .08);
+    background:-webkit-linear-gradient(#75ab4b, #4a8532);
+    border-color:#68954c #427329 #386a24;
+    -webkit-border-radius:6px;
+    padding:7px 16px;
+    border:solid 1px;
+    -webkit-box-sizing:border-box;
+    font-weight:bold;
+    min-width:50px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:16px;
+    width:100%; 
+}
+
+#wrapperMobile #Content .Login .Esqueceu
+{
+    text-align:center;
+    color:#8190b0;
+    text-decoration:none;
+    line-height:15px;
+    font-size:12px;
+    padding-top:14px;
+    padding-bottom:32px;
+}
+
+#wrapperMobile #Footer
+{
+    max-width:480px;
+    margin:0 auto;
+    padding:12px 20px 20px 20px;
+}
+
+#wrapperMobile #Footer .Language
+{
+    text-align:center;
+    font-size:12px;
+    line-height:15px;
+    color:gray;
+    
+}
+
+#wrapperMobile #Footer .Language a
+{
+    color:#8190b0;
+    text-decoration:none;    
+}
+
+#wrapperMobile #Footer .Right
+{
+    text-align:center;
+    padding:12px 8px 0px 8px;
+    color:#ccc;
+    font-size:12px;
+    line-height:15px;
+    color:gray;  
+    text-decoration:none;  
+}
+
+#wrapperMobile #Footer .Right a
+{
+    color:#8190b0;
+    text-decoration:none; 
+}
