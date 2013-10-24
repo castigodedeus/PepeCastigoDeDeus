@@ -19,6 +19,7 @@ div#wrapper
 {
     position:relative;
     display:block !important;
+    width:320px;
 }
 
 #wrapperMobile #Header
