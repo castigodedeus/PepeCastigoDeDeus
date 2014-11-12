@@ -7,7 +7,7 @@
 
 body
 {
-    background:url("images/bgbody.gif") repeat-x;
+    background:url("images/bgbody.png") repeat-x;
 }
 
 div#wrapper
@@ -57,7 +57,7 @@ div#wrapper div#header div.login ul li a
 {
     color: #98A9CA;
     text-decoration:none;
-    margin:0 0 3px 14px;
+    margin:2px 0 3px 14px;
     display:block;
 }
 
@@ -75,17 +75,17 @@ div#wrapper div#content
 div#wrapper div#content div.sideLeft
 {
     width:548px;
-    min-height:693px;
+    min-height:624px;
     float:left;
-    background-image:url("images/bgsideleft.gif");
+    background:url("images/bgsideleft.png") no-repeat;
 }
 
 div#wrapper div#content div.sideRight
 {
     width:432px;
-    min-height:693px;
+    min-height:624px;
     float:right;
-    background:url("images/bgsideright.gif") no-repeat;
+    background:url("images/bgsideright.png") no-repeat;
 }
 
 div#wrapper div#footer
@@ -116,7 +116,7 @@ div#wrapper input[type="submit"]
 div#wrapper input[type="checkbox"]
 {
     float:left;
-    margin-top:1px;
+    margin-top:3px;
 }
 
 div#wrapper label
@@ -125,13 +125,15 @@ div#wrapper label
     color:#FFF;
     display:block;
     padding:0 0 4px 2px;
+	
 }
 
 div#wrapper label.persist
 {
     float:left;
     color: #98A9CA;
-    padding-left: 4px;    
+    padding-left: 4px; 
+	margin-top:2px;
 }
 
 div#wrapper button, div#wrapper input, div#wrapper label, div#wrapper a

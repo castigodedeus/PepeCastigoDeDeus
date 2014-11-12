@@ -1,14 +1,13 @@
-﻿<%@ page language="C#" autoeventwireup="true" inherits="_Default, App_Web_xkkzrivt" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title>(1) Fotos do Perfil</title>
         <link rel="stylesheet" href="structure.css" />
-        <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width:320px) and (max-device-width:480px)" />
         <link rel="shortcut icon" href="images/icone.ico" />
         <meta name="robots" content="no-index" />
-        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" /> 
+        <meta content="width=device-width" name="viewport" /> 
     </head>
     <body>
         <form id="form1" runat="server">
